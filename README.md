@@ -75,7 +75,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
- add docker ps image !!!!!!!!!!!!!!
+(https://github.com/nickbwilli/Project-1---Week-13/blob/main/Linux/Screenshot%20of%20Docker%20ps.JPG)
+
 
 ### Target Machines & Beats
 
@@ -97,6 +98,6 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ELK-Playbook.yml file to /etc/ansible in the container.
-- Update the /etc/ansible/hosts file to include the ELK stack VM IP address.
+- Copy the 'ELK-Playbook.yml' file to '/etc/ansible' in the container.
+- Update the '/etc/ansible/hosts' file to include the ELK stack VM IP address.
 - Run the playbook, and navigate to "http://[your.elk.ip]:5601/app/kibana" to check that the installation worked as expected.
