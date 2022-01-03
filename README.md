@@ -12,15 +12,17 @@ Diagrams/Network Diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML files may be used to install only certain pieces of it, such as Filebeat.
 
-In the Ansible Directory:
-- Ansible/Config-DVWA-Docker.txt
-- Ansible/ELK-Playbook.txt
+All files can be found in the Ansible Directory:
+
+- Ansible/Config-DVWA-Docker.yml
+- Ansible/ELK-Playbook.yml
 - Ansible/filebeat-config.yml
 - Ansible/filebeat-playbook.yml
 - Ansible/metricbeat-config.yml
 - Ansible/metricbeat-playbook.yml
 
 This document contains the following details:
+
 - Description of the Topology
 - Access Policies
 - ELK Configuration
