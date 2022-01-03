@@ -16,7 +16,9 @@ In the Ansible Directory:
 - Ansible/Config-DVWA-Docker.txt
 - Ansible/ELK-Playbook.txt
 - Ansible/filebeat-config.yml
-- 
+- Ansible/filebeat-playbook.yml
+- Ansible/metricbeat-config.yml
+- Ansible/metricbeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
