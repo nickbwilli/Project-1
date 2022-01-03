@@ -12,8 +12,11 @@ Diagrams/Network Diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML files may be used to install only certain pieces of it, such as Filebeat.
 
-  - Ansible
-          https://github.com/nickbwilli/Project-1---Week-13/tree/main/Ansible
+In the Ansible Directory:
+- Ansible/Config-DVWA-Docker.txt
+- Ansible/ELK-Playbook.txt
+- Ansible/filebeat-config.yml
+- 
 
 This document contains the following details:
 - Description of the Topology
